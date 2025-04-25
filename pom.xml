@@ -38,5 +38,19 @@
       <version>2.0.9</version>
     </dependency>
 
+    <!-- Spring AOP -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aop</artifactId>
+      <version>5.3.27</version>
+    </dependency>
+
+    <!-- AspectJ -->
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.9.19</version>
+    </dependency>
+
   </dependencies>
 </project>
