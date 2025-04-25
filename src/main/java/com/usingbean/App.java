@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.usingbean;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.*;

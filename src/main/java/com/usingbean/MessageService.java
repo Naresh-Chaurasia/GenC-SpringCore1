@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.usingbean;
 
 public interface MessageService {
     String getMessage();
