@@ -1,0 +1,139 @@
+= Project Documentation
+:toc: left
+:toclevels: 3
+
+This document provides an overview of the packages and their functionality in this workspace.
+
+== Packages Overview
+
+=== `com.autowiring`
+This package demonstrates the concept of dependency injection using Spring's `@Autowired` annotation.
+
+- **Classes**:
+  - `GreetingService`: Interface for greeting functionality.
+  - `GreetingServiceImpl`: Implementation of `GreetingService`.
+  - `MainApp`: Entry point to demonstrate autowiring.
+
+=== `com.usingbean`
+This package demonstrates the use of Java-based configuration with `@Bean` annotations.
+
+- **Classes**:
+  - `AppConfig`: Configuration class defining beans.
+  - `App`: Entry point to demonstrate bean usage.
+  - `MessageService` and `MessageServiceImpl`: Service interface and implementation.
+
+=== `com.springbeans`
+This package demonstrates Spring bean scopes, lifecycle callbacks, and prototype beans.
+
+- **Classes**:
+  - `AppConfig`: Configuration class for component scanning.
+  - `LifecycleBean`: Demonstrates `@PostConstruct` and `@PreDestroy` lifecycle callbacks.
+  - `SingletonBean`: Demonstrates singleton scope.
+  - `PrototypeBean`: Demonstrates prototype scope.
+  - `MainLifecycle`: Entry point to demonstrate lifecycle callbacks.
+  - `MainPrototype`: Entry point to demonstrate prototype scope.
+
+=== `com.springjdbc`
+This package demonstrates Spring JDBC for database operations.
+
+- **Classes**:
+  - `AppConfig`: Configuration class for `DataSource` and `JdbcTemplate`.
+  - `EmployeeDAO`: Data Access Object for employee operations.
+  - `Employee`: Model class representing an employee.
+  - `App`: Entry point to demonstrate database operations.
+
+=== `com.aop`
+This package demonstrates Spring AOP (Aspect-Oriented Programming).
+
+- **Classes**:
+  - `AppConfig`: Configuration class enabling AOP.
+  - `BusinessService`: A business service class.
+  - `LoggingAspect`: Aspect class for logging method calls.
+
+=== `com.mapinjection`
+This package demonstrates injecting a `Map` into a Spring bean.
+
+- **Classes**:
+  - `AppConfig`: Configuration class defining a `Map` bean.
+  - `MapInjectionExample`: Class demonstrating map injection.
+  - `MainApp`: Entry point to demonstrate map injection.
+
+=== `com.mocking`
+This package demonstrates mocking and testing with Spring Boot.
+
+- **Classes**:
+  - `GenCApplication1`: Spring Boot application demonstrating mocking.
+  - `SortService`: Service interface for sorting functionality.
+
+=== `com.example.solid`
+This package demonstrates the SOLID principles of object-oriented design.
+
+- **Classes**:
+  - `SingleResponsibility`: Demonstrates the Single Responsibility Principle.
+  - `OpenClosed`: Demonstrates the Open/Closed Principle.
+  - `Main`: Entry point to demonstrate SOLID principles.
+
+=== `com.corejava.jdbc`
+This package demonstrates JDBC operations using plain Java.
+
+- **Classes**:
+  - `EmployeeDAO`: Data Access Object for employee operations.
+  - `Employee`: Model class representing an employee.
+  - `App`: Entry point to demonstrate JDBC operations.
+
+=== `com.usingvalue`
+This package demonstrates the use of `@Value` annotation for injecting values.
+
+- **Classes**:
+  - `AppConfig`: Configuration class for property loading.
+  - `ValueExampleBean`: Demonstrates value injection.
+  - `MainApp`: Entry point to demonstrate value injection.
+
+=== `com.autowiringxml`
+This package demonstrates XML-based configuration and autowiring in Spring.
+
+- **Classes**:
+  - `MessageService`: Interface for message functionality.
+  - `MessageServiceImpl`: Implementation of `MessageService`.
+  - `MessageApp`: Entry point to demonstrate XML-based autowiring.
+
+=== `com.injections`
+This package demonstrates various types of dependency injection in Spring, including constructor, setter, and field injection.
+
+- **Classes**:
+  - `AppConfig`: Configuration class for component scanning.
+  - `MessageService`: Interface for message functionality.
+  - `MessageServiceImpl`: Implementation of `MessageService`.
+  - `ConstructorInjectionExample`: Demonstrates constructor-based dependency injection.
+  - `SetterInjectionExample`: Demonstrates setter-based dependency injection.
+  - `FieldInjectionExample`: Demonstrates field-based dependency injection.
+  - `MainApp`: Entry point to demonstrate all types of dependency injection.
+
+=== `com.sorting`
+This package demonstrates the strategy design pattern for sorting algorithms.
+
+- **Classes**:
+  - `ISort`: Interface for sorting algorithms.
+  - `SortingAlgorithm`: Class that uses the `ISort` interface to perform sorting.
+
+=== `com.springbeans`
+This package demonstrates Spring bean scopes, lifecycle callbacks, and prototype beans.
+
+- **Classes**:
+  - `AppConfig`: Configuration class for component scanning.
+  - `SingletonBean`: Demonstrates singleton scope.
+  - `PrototypeBean`: Demonstrates prototype scope.
+  - `LifecycleBean`: Demonstrates `@PostConstruct` and `@PreDestroy` lifecycle callbacks.
+  - `MainSingleton`: Entry point to demonstrate singleton scope.
+  - `MainPrototype`: Entry point to demonstrate prototype scope.
+  - `MainLifecycle`: Entry point to demonstrate lifecycle callbacks.
+
+=== `com.springsorting`
+This package demonstrates sorting functionality using Spring's dependency injection and `@Qualifier` annotation.
+
+- **Classes**:
+  - `AppConfig`: Configuration class for component scanning.
+  - `SortAlgorithm`: Interface for sorting algorithms.
+  - `QuickSort`: Implementation of `SortAlgorithm` using the QuickSort algorithm.
+  - `SortService`: Service class that uses `SortAlgorithm` for sorting.
+  - `GenCApplication1`: Entry point to demonstrate sorting functionality with Spring Boot.
