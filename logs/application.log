@@ -1,0 +1,5 @@
+2025-04-26 18:06:25 INFO  com.slf4jexamples.LoggingExample - This is an INFO message
+2025-04-26 18:06:25 DEBUG com.slf4jexamples.LoggingExample - This is a DEBUG message
+2025-04-26 18:06:25 WARN  com.slf4jexamples.LoggingExample - This is a WARN message
+2025-04-26 18:06:25 ERROR com.slf4jexamples.LoggingExample - This is an ERROR message
+2025-04-26 18:06:25 INFO  com.slf4jexamples.LoggingExample - Logging a variable: value = 42
